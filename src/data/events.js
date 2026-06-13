@@ -1,0 +1,227 @@
+// Featured events for the carousel
+export const featuredEvents = [
+  {
+    id: 1,
+    title: "Sunset Canvas Workshop",
+    date: "June 15, 2026",
+    image: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=1200&h=700&fit=crop",
+    category: "Painting",
+  },
+  {
+    id: 2,
+    title: "Resin Beach Art",
+    date: "June 22, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00479351-zstcabqmtv-portrait.jpg",
+    category: "Pottery",
+  },
+  {
+    id: 3,
+    title: "Pottery Workshop",
+    date: "July 1, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00481543-qgrwtxgchl-portrait.jpg",
+    category: "Painting",
+  },
+  {
+    id: 4,
+    title: "Clay Sculpture",
+    date: "July 8, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00495663-dfawhkmlfm-portrait.jpg",
+    category: "Exhibition",
+  },
+  {
+    id: 5,
+    title: "Koi Pond Resin Art",
+    date: "July 14, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00483210-cvgwvwxjvr-portrait.jpg",
+    category: "Mandala",
+  },
+  {
+    id: 6,
+    title: "Resin Art",
+    date: "July 20, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00469204-xkvrenhuce-portrait.jpg",
+    category: "Kids",
+  },
+  {
+    id: 7,
+    title: "Coil Pottery",
+    date: "July 28, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00469163-pemtebfmwg-portrait.jpg",
+    category: "Sketching",
+  },
+  {
+    id: 8,
+    title: "Kintsugi",
+    date: "August 2, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00495678-kfjtalsrfv-portrait.jpg",
+    category: "Craft",
+  },
+  {
+    id: 9,
+    title: "Pottery Workshop",
+    date: "August 10, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00461619-uurehajucd-portrait.jpg",
+    category: "Calligraphy",
+  },
+  {
+    id: 10,
+    title: "Clay Miniature",
+    date: "August 18, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00465183-ptbardwudk-portrait.jpg",
+    category: "Sketching",
+  },
+  {
+    id: 11,
+    title: "Japanese Kintsugi",
+    date: "August 25, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00462517-vlyttmnxqz-portrait.jpg",
+    category: "Pottery",
+  },
+  {
+    id: 12,
+    title: "Pottery Of Love",
+    date: "September 1, 2026",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00469205-jpvjmvhbfu-portrait.jpg",
+    category: "Community",
+  },
+];
+
+// Event categories
+export const eventCategories = [
+  {
+    id: 1,
+    title: "Resin Art",
+    description: "Express yourself through vibrant colors and brushstrokes in our guided painting sessions for all skill levels.",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00479351-zstcabqmtv-portrait.jpg",
+    icon: "🎨",
+  },
+  {
+    id: 2,
+    title: "Pottery Workshop",
+    description: "Shape your imagination with clay. Learn wheel throwing, hand building, and glazing techniques.",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00481543-qgrwtxgchl-portrait.jpg",
+    icon: "🏺",
+  },
+  {
+    id: 3,
+    title: "Clay Sculpture",
+    description: "Master the fundamentals of drawing with charcoal, pencil, and ink in our focused sketching workshops.",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00495663-dfawhkmlfm-portrait.jpg",
+    icon: "✏️",
+  },
+  {
+    id: 4,
+    title: "Koi Pond Resin Art",
+    description: "Collaborative canvas art experiences where creativity flows freely in a supportive community setting.",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00483210-cvgwvwxjvr-portrait.jpg",
+    icon: "🖼️",
+  },
+  {
+    id: 5,
+    title: "Kitsugi",
+    description: "Fun, engaging art activities designed to spark imagination and creativity in young artists aged 5-14.",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00495678-kfjtalsrfv-portrait.jpg",
+  },
+  {
+    id: 6,
+    title: "Clay Miniature",
+    description: "Discover the meditative art of mandala creation. Find peace and balance through intricate patterns.",
+    image: "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-400,h-600,bg-CCCCCC,e-usm-2-2-0.5-0.008:w-400.0,h-660.0,cm-pad_resize,bg-000000,fo-top:l-text,ie-U3VuLCAxNCBKdW4gb253YXJkcw%3D%3D,fs-29,co-FFFFFF,ly-612,lx-24,pa-8_0_0_0,l-end/et00465183-ptbardwudk-portrait.jpg",
+    category: "Sketching",
+    icon: "🔮",
+  }
+];
+
+// Past events for gallery
+export const pastEvents = [
+  {
+    id: 1,
+    title: "Spring Canvas Festival",
+    location: "Art & Soul Studio, Mumbai",
+    date: "March 15, 2026",
+    category: "Painting",
+    description: "A vibrant celebration of color where artists painted live canvases under spring blossoms.",
+    image: "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=600&h=800&fit=crop",
+    aspect: "tall",
+  },
+  {
+    id: 2,
+    title: "Pottery Under the Stars",
+    location: "Rooftop Garden, Pune",
+    date: "February 28, 2026",
+    category: "Pottery",
+    description: "An enchanting evening of wheel throwing and hand building beneath a starlit sky.",
+    image: "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=600&h=400&fit=crop",
+    aspect: "wide",
+  },
+  {
+    id: 3,
+    title: "Kids Summer Art Camp",
+    location: "Community Center, Delhi",
+    date: "January 20, 2026",
+    category: "Kids",
+    description: "Young creators explored painting, collage, and sculpture in a week-long creative adventure.",
+    image: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=600&h=400&fit=crop",
+    aspect: "wide",
+  },
+  {
+    id: 4,
+    title: "Watercolor Sunrise",
+    location: "Beachside Studio, Goa",
+    date: "December 10, 2025",
+    category: "Painting",
+    description: "Artists captured golden hour light in delicate watercolor washes by the ocean.",
+    image: "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=600&h=800&fit=crop",
+    aspect: "tall",
+  },
+  {
+    id: 5,
+    title: "Abstract Expression Show",
+    location: "Gallery One, Bangalore",
+    date: "November 22, 2025",
+    category: "Exhibition",
+    description: "A curated showcase of bold abstract works from emerging and established artists.",
+    image: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=600&h=400&fit=crop",
+    aspect: "wide",
+  },
+  {
+    id: 6,
+    title: "Mandala Art Retreat",
+    location: "Zen Center, Rishikesh",
+    date: "October 5, 2025",
+    category: "Mandala",
+    description: "A meditative weekend of intricate mandala creation in the serene Himalayan foothills.",
+    image: "https://images.unsplash.com/photo-1582201942988-13e60e4556ee?w=600&h=400&fit=crop",
+    aspect: "wide",
+  },
+  {
+    id: 7,
+    title: "Community Mural Project",
+    location: "City Park, Jaipur",
+    date: "September 18, 2025",
+    category: "Community",
+    description: "Neighbors and artists united to paint a vibrant mural celebrating local heritage.",
+    image: "https://images.unsplash.com/photo-1579783902614-a3fb3927b6a5?w=600&h=800&fit=crop",
+    aspect: "tall",
+  },
+  {
+    id: 8,
+    title: "Calligraphy Evening",
+    location: "Heritage Hall, Kolkata",
+    date: "August 30, 2025",
+    category: "Craft",
+    description: "An elegant session exploring brush lettering and traditional ink calligraphy techniques.",
+    image: "https://images.unsplash.com/photo-1452587925148-ce544e77e70d?w=600&h=400&fit=crop",
+    aspect: "wide",
+  },
+];
+
+export const galleryCategories = ["All", ...new Set(pastEvents.map((e) => e.category))];
+
+// Stats / highlights
+export const highlights = [
+  { label: "Events Hosted", value: 50, suffix: "+" },
+  { label: "Participants", value: 2000, suffix: "+" },
+  { label: "Workshops", value: 100, suffix: "+" },
+  { label: "Expert Artists", value: 20, suffix: "+" },
+];
