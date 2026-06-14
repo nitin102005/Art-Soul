@@ -50,7 +50,6 @@ export default function About() {
             <h2 className="text-3xl lg:text-4xl font-bold text-text-primary mb-6">
               About Us
             </h2>
-            
 
             <p className="text-text-secondary leading-relaxed text-[15px] lg:text-[17px] mb-2">
               Art &amp; Soul is a creative platform dedicated to bringing
@@ -64,15 +63,17 @@ export default function About() {
               or you're a seasoned creator, our community welcomes you with
               open arms and endless inspiration.
             </p>
-            {/* <br /> */}
-            <br />
 
-            {/* Features — Using Flex instead of Grid */}
-            <div className="flex flex-col sm:flex-row flex-wrap gap-8 mt-10">
+            {/* Features */}
+            <div className="flex flex-col sm:flex-row flex-wrap gap-8 mt-10 px-4 lg:px-0">
               {features.map((feature) => (
                 <div
                   key={feature.title}
-                  className="group flex-1 min-w-[280px] p-8 rounded-3xl bg-white/70 backdrop-blur-xl border border-white/60 hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/15 transition-all duration-300 flex flex-col"
+                  className="group flex-1 min-w-[280px] px-10 py-8 rounded-3xl 
+                             bg-gradient-to-br from-white/80 via-white/70 to-rose-gold/10 
+                             backdrop-blur-xl border border-white/60 
+                             hover:border-primary/30 hover:shadow-2xl hover:shadow-primary/15 
+                             transition-all duration-300 flex flex-col"
                 >
                   <div className="w-14 h-14 rounded-2xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-linear-to-br group-hover:from-primary group-hover:to-rose-gold transition-all duration-300">
                     <feature.icon
