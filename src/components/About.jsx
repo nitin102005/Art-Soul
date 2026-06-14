@@ -1,4 +1,5 @@
 import { Heart, Users, Palette, Star } from "lucide-react";
+import img25 from "../assets/gallery/25.jpg";
 
 const features = [
   {
@@ -34,7 +35,7 @@ export default function About() {
             <div className="w-full max-w-md lg:max-w-lg">
               <div className="rounded-3xl overflow-hidden shadow-2xl shadow-primary/20 ring-1 ring-white/50">
                 <img
-                  src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=800&h=1000&fit=crop"
+                  src={img25}
                   alt="Artist creating artwork"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   loading="lazy"
