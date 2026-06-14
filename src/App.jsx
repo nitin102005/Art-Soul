@@ -17,7 +17,7 @@ function App() {
       initial="initial"
       animate="animate"
       variants={pageTransition}
-      className="min-h-screen bg-white"
+      className="min-h-screen w-screen bg-white"
     >
       <Navbar />
       <main>
@@ -26,11 +26,13 @@ function App() {
         <br />
         <EventCarousel />
         <br />
+        <Gallery />
+        <br />
         <EventCategories />
         <br />
         <Highlights />
         <br />
-        <Gallery />
+        
         <Testimonials />
         <CommunityCTA />
       </main>
