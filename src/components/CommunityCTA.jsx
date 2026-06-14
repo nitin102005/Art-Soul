@@ -89,14 +89,27 @@ export default function CommunityCTA() {
             Join a vibrant community of creators, dreamers, and art lovers.
             Register now and never miss an inspiring workshop or event.
           </motion.p>
+          <br />
 
-          <motion.button
-            variants={fadeUp}
-            whileHover={{ scale: 1.05, y: -2 }}
-            whileTap={{ scale: 0.97 }}
-            className="group inline-flex items-center gap-3  px-10 py-5 bg-linear-to-r from-primary-dark via-rose-gold to-accent text-white font-semibold text-lg rounded-[5px] shadow-xl shadow-primary/25 hover:shadow-2xl hover:shadow-primary/40 transition-shadow duration-300 cursor-pointer"
-          > <p className="whitespace-pre">  Register for Upcoming Events </p> <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-300" />
-          </motion.button>
+          <a
+  href="https://www.instagram.com/art._.soul__?igsh=bTljeXNxc3V6dnF4"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <motion.button
+    variants={fadeUp}
+    whileHover={{ scale: 1.05, y: -2 }}
+    whileTap={{ scale: 0.97 }}
+    className="group inline-flex items-center gap-3 px-10 py-5 bg-linear-to-r from-primary-dark via-rose-gold to-accent text-white font-semibold text-lg rounded-[5px] shadow-xl shadow-primary/25 hover:shadow-2xl hover:shadow-primary/40 transition-shadow duration-300 cursor-pointer"
+  >
+    
+    <p className="whitespace-pre">  Register for Upcoming Events </p>
+    <ArrowRight
+      size={20}
+      className="group-hover:translate-x-1 transition-transform duration-300"
+    />
+  </motion.button>
+</a>
         </motion.div>
 
       </div>
