@@ -26,9 +26,9 @@ export default function SectionHeader({
       {badge && (
         <motion.span
           variants={fadeUp}
-          className={`inline-block px-4 py-1.5 rounded-full text-sm font-medium mb-4 tracking-wide ${
+          className={`inline-block px-4 py-1.5 rounded-[3px] text-sm font-medium mb-4 tracking-wide ${
             dark
-              ? "bg-white/10 text-primary-light"
+              ? "whitespace-pre text-white/60 bg-rose-gold/15 px-3"
               : "bg-primary/10 text-rose-gold"
           }`}
         >
