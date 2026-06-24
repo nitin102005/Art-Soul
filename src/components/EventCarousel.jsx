@@ -31,15 +31,15 @@ function EventCard({ event }) {
       </div>
 
       {/* Content Area */}
-      <div className="flex flex-col items-center justify-between p-3 sm:p-4 bg-black/90 min-h-[50px]">
+      <div className="flex flex-col items-center justify-center p-3 sm:p-4 bg-black/90 min-h-[40px]">
         <div>
           <h3 className="font-display text-xs sm:text-base md:text-base font-bold text-white leading-tight mb-1 sm:mb-1.5">
             {event.title}
           </h3>
-          <div className="flex items-center justify-center gap-1.5 sm:gap-2 text-white/75 text-xs sm:text-sm">
+          {/* <div className="flex items-center justify-center gap-1.5 sm:gap-2 text-white/75 text-xs sm:text-sm">
             <CalendarDays size={12} className="text-primary-light shrink-0" />
             <span>{event.date}</span>
-          </div>
+          </div> */}
         </div>
       </div>
 
