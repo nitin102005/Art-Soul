@@ -92,7 +92,7 @@ export default function CommunityCTA() {
           <br />
 
           <a
-  href="https://www.instagram.com/art._.soul__?igsh=bTljeXNxc3V6dnF4"
+ href="https://in.bookmyshow.com/explore/c/venues/how-about-coffee-jaipur/hwcj"
   target="_blank"
   rel="noopener noreferrer"
 >
