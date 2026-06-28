@@ -103,13 +103,18 @@ export default function Hero() {
           
 
           <motion.button
-            onClick={() => handleScroll("#community")}
-            className="btn-glass"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.98 }}
-          >
-            Join Community
-          </motion.button>
+  onClick={() =>
+    window.open(
+      "https://chat.whatsapp.com/KUVYC8hdzrjFiICVDTUUsJ",
+      "_blank"
+    )
+  }
+  className="btn-glass"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.98 }}
+>
+  Join Community
+</motion.button>
         </motion.div>
 
         {/* Scroll indicator */}
