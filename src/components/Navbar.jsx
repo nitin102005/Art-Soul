@@ -55,9 +55,8 @@ export default function Navbar() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.7, ease }}
-      className={`fixed top-0 left-4 right-4 z-50 transition-all duration-500 ${
-        scrolled ? "glass-nav shadow-lg shadow-primary/8 py-3" : "bg-transparent py-3"
-      }`}
+      className={`fixed top-0 left-4 right-4 z-50 transition-all duration-500 ${scrolled ? "glass-nav shadow-lg shadow-primary/8 py-3" : "bg-transparent py-3"
+        }`}
     >
       <div className="w-full mx-auto flex items-center justify-between px-6">
         {/* Logo - Increased Size */}
@@ -84,11 +83,10 @@ export default function Navbar() {
             <motion.li key={link.href} custom={i} variants={navItem}>
               <button
                 onClick={() => handleNav(link.href)}
-                className={`relative px-5 py-2.5 text-sm font-medium rounded-full transition-colors duration-300 cursor-pointer ${
-                  activeSection === link.href.slice(1)
-                    ? "text-rose-gold"
-                    : "text-text-secondary hover:text-text-primary"
-                }`}
+                className={`relative px-5 py-2.5 text-sm font-medium rounded-full transition-colors duration-300 cursor-pointer ${activeSection === link.href.slice(1)
+                  ? "text-rose-gold"
+                  : "text-text-secondary hover:text-text-primary"
+                  }`}
               >
                 {link.label}
                 {activeSection === link.href.slice(1) && (
@@ -110,7 +108,12 @@ export default function Navbar() {
           transition={{ delay: 0.5, duration: 0.4 }}
           whileHover={{ scale: 1.05, y: -1 }}
           whileTap={{ scale: 0.97 }}
-          onClick={() => handleNav("#community")}
+          onClick={() =>
+            window.open(
+              "https://chat.whatsapp.com/KUVYC8hdzrjFiICVDTUUsJ",
+              "_blank"
+            )
+          }
           className="hidden lg:flex btn-primary py-3 px-7 text-sm"
         >
           Join Community
@@ -146,11 +149,10 @@ export default function Navbar() {
                   exit={{ opacity: 0, x: -10 }}
                   transition={{ delay: i * 0.04, duration: 0.3, ease }}
                   onClick={() => handleNav(link.href)}
-                  className={`w-full text-left px-6 py-4 rounded-2xl text-base font-medium transition-all cursor-pointer ${
-                    activeSection === link.href.slice(1)
-                      ? "bg-primary/15 text-rose-gold"
-                      : "text-text-secondary hover:bg-primary/5 hover:text-text-primary"
-                  }`}
+                  className={`w-full text-left px-6 py-4 rounded-2xl text-base font-medium transition-all cursor-pointer ${activeSection === link.href.slice(1)
+                    ? "bg-primary/15 text-rose-gold"
+                    : "text-text-secondary hover:bg-primary/5 hover:text-text-primary"
+                    }`}
                 >
                   {link.label}
                 </motion.button>
@@ -159,7 +161,13 @@ export default function Navbar() {
                 initial={{ opacity: 0, y: 10 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ delay: navLinks.length * 0.04 + 0.1 }}
-                onClick={() => handleNav("#community")}
+                onClick={() => {
+                  setMobileOpen(false);
+                  window.open(
+                    "https://chat.whatsapp.com/KUVYC8hdzrjFiICVDTUUsJ",
+                    "_blank"
+                  );
+                }}
                 className="mt-4 w-full btn-primary py-4 rounded-2xl text-base"
               >
                 Join Community
